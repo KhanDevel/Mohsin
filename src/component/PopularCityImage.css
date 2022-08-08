@@ -1,0 +1,26 @@
+.PopularCityImage{
+     width:  240px ;
+     height: 250px;
+     border: 1px solid green;
+     border-radius: 12px;
+     margin: 10px;
+     background-image: url("../asstes/amazing-armenia.webp");
+     background-position: center; 
+     background-repeat: no-repeat; 
+     background-size: 250px; 
+     transition:  0.5s;
+     display: flex;
+     align-items: flex-end;
+     color: white;
+     transition: all .5s ease;
+
+
+}
+.PopularCityImage:hover{
+    transition: all .5s ease;
+    background-size: 350px;
+}
+.cityLink{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

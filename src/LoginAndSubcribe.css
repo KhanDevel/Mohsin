@@ -1,0 +1,69 @@
+
+.LoginAndSubcribeWraper{
+}
+.LoginAndSubcribe{
+    margin: 0 300px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputName{
+    margin: 10px;
+    width: 300px;
+    padding: 10px 5px;
+}
+.inputPassword{
+    margin: 20px;
+    width: 300px;
+    padding: 10px 5px;
+}
+.LoginAndSubBtn{
+    padding: 6px 20px ;
+    font-size: 20px;
+    background-color: rgb(211,57,47);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px ;
+}
+.divider{
+    border: 1px solid gray;
+    margin: 5px 0;
+}
+.DonloadApp{
+    margin: 50px 300px;
+    display: flex;
+}
+
+.playstoreWraper{
+    display:  flex;
+    justify-content: center;
+}
+.playStore{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 20px;
+    margin: 5px;
+
+}
+
+.playIcon{
+    font-size: 30px;
+    margin-right:8px ;
+}
+.GetDownload{
+    text-align: center;
+}
+
+.qrCodeWrapper{
+    text-align: center;
+}
+
+.qrcode{
+    font-size: 100px;
+}

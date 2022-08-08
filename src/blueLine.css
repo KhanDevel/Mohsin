@@ -1,0 +1,61 @@
+.BlueLineWraper{
+    background-color: rgb(9,32,75);
+    color: white;
+    position: relative;
+
+}
+
+.blueLine{
+    margin: 0 300px ;
+    display: flex;
+    font-size: 20px;
+
+}
+
+.blueLine h4 {
+    margin: 20px 50px 20px 0px;
+}
+
+.iconAngleDown{
+    position: absolute;
+    top: 44px;
+    font-size: 30px;
+    right: 311px;
+    height: 40px;
+    width: 43px;
+    border-radius: 50%;
+    background: rgb(9,32,75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+
+
+.Akebercom{
+    margin: 0 300px;
+    padding-bottom:30px ;
+}
+.Akebercom h3 {
+    padding: 20px 0;
+}
+
+
+.iconAngleDown1{
+    transform: rotate(180deg);
+    position: absolute;
+    top: 44px;
+    font-size: 30px;
+    right: 311px;
+    height: 40px;
+    width: 43px;
+    border-radius: 50%;
+    background: rgb(9,32,75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+

@@ -1,0 +1,93 @@
+
+.DiscountCard{
+    border: 1px solid red;
+    height: 250px;
+    width: 320px;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    padding-right: 20px;
+}
+.discountCardImg{
+    border: 1px solid black;
+    height: 205px;
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    border-radius: 12px;
+    transform: translateX(-40%);
+}
+
+.discountImg{
+    width: 100%;
+    height: 100%;
+    background-image: url("../asstes/omanair-sm.webp");
+    border-radius: 12px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 130px; 
+    transition: 0.4s;
+
+}
+
+.discountImg:hover {
+    /* transform: scale(1.2); */
+    transition: all 0.3s ease;
+    background-size: 160px;
+}
+.btn-wrapper-discountcard{
+    text-align: end;
+    margin-top: 30px;
+}
+.btn-wrapper-discountcard button {
+    padding: 0px 10px;
+    font-size: 12px;
+}
+.discount-save-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.coupen-code-wraper{
+    /* display: flex; */
+}
+.coupen-code{
+display: flex;
+justify-content: end;
+margin-top: 70px;
+}
+.coupen-code-number{
+    margin: 10px;
+    margin-left: 24px;
+    font-size: 12px;
+    
+} 
+.coupen-code-numer-span-wraper{
+    display: flex;
+}
+
+
+.code-span-2 {
+    border: 1px dashed red;
+    padding: 5px 10px;
+
+}
+.code-span-1{
+    border: 1px dashed red;
+    padding: 5px 10px;
+    position: relative;
+
+
+}
+.coupen-code-number h3{
+    color: red;
+}
+
+.coupe-code-title{
+    position: absolute;
+    top: -9px;
+    left: 5px;
+    background-color: white;
+    font-size: 12px;
+}

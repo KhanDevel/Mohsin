@@ -1,0 +1,43 @@
+.AllLinkWraper{
+    background-color: rgb(243,243,243);
+    padding: 50px 0;
+}
+
+.AllLink{
+    margin: 0 300px;
+    display: flex;
+}
+
+.AllLinkMoreLink{
+    flex-basis: 50%;
+    padding-right: 30px;
+}
+
+.AllLinkInternationalflight{
+    flex-basis: 50%;
+    padding-right: 30px;
+
+}
+
+.linkSpanLine{
+    border: 1px solid rgb(184,133,100);
+    margin: 3px 5px;
+    
+
+
+    
+}
+.linkTravelWraper{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: rgb(148,104,89);
+}
+
+.linkTravelWraper a:hover {
+        color: red;
+}
+
+.AllLinkMoreLink h3 {
+    margin: 12px 0;
+}

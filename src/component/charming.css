@@ -1,0 +1,17 @@
+.charmingImg-wraper{
+    display: flex;
+    margin: 20px;
+}
+.charmingImg{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    margin-right: 10px;
+    background-image: url("../asstes/Singapore-2704.webp");
+    background-size: cover;
+    background-position: center; 
+     background-repeat: no-repeat; 
+     background-size: cover; 
+     border-radius: 12px;
+     transition: 0.5s;
+}

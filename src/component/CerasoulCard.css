@@ -1,0 +1,56 @@
+
+
+.CrasoulCard{
+    color: white;
+    width: 270px;
+    height: 400px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    
+
+}
+.crasoulCardImage{
+    border-radius: 12px;
+}
+
+.CrasoulCardContained{
+
+    position: absolute;
+    bottom: 70px;
+    left: 14px;
+    transform: translateY(172px);
+    transition: 0.5s;
+    text-align: start;
+}
+
+.CrasoulCardFlightButton{
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 1px 13px;
+    font-size: 19px;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left:30px;
+}
+
+.cerasoulcardbuttonreadmore{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: none;
+    transition: 0.5s;
+
+}
+
+.CrasoulCard:hover .cerasoulcardbuttonreadmore {
+    display: block;
+    transition: 0.5s;
+}
+
+.CrasoulCard:hover .CrasoulCardContained{
+    transform: translateY(0);
+    transition: 0.5s;
+}

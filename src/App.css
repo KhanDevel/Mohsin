@@ -1,0 +1,40 @@
+.app{
+    margin: 0 300px;
+}
+.container{
+    /* height: 400px; */
+    width: 100%;
+    border: 1px solid red;
+    background-color: rgb(7,22,45);
+}
+
+.customerService{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgb(29,57,143);
+    position: fixed;
+    bottom: 50px;
+    color: white;
+    right: 50px;
+}
+.feedbeek{
+    background-color: rgb(29,57,143);
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    border-radius: 0px 0px 14px 12px;
+    padding: 11px 23px;
+    color: white;
+    transform: rotate(90deg);
+    margin-right: -30px;
+}
+
+.feedbeek span i {
+    font-size: 20px;
+    color: white;
+}
